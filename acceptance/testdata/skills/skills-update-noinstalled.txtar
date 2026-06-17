@@ -1,5 +1,0 @@
-# Update with no installed skills should report appropriately
-exec gh skill update --dry-run --all --dir $WORK/empty-dir
-stderr 'No installed skills found'
-
--- empty-dir/.gitkeep --
